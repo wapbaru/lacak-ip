@@ -40,9 +40,9 @@ function upd() {
   logo();
   echo "\n\033[01;32mUpdating IP-Tracer.........\033[01;37m\n\n";
   sleep(1);
-  system("cd ~/ && git clone https://github.com/rajkumardusad/IP-Tracer.git");
-  system("cd ~/ && sudo git clone https://github.com/rajkumardusad/IP-Tracer.git");
-  system("cd ~/IP-Tracer && sh install");
+  system("cd ~/ && git clone https://github.com/Felyxh/lacak-ip");
+  system("cd ~/ && sudo git clone https://github.com/Felyxh/lacak-ip");
+  system("cd ~/lacak-ip && sh install");
   logo();
   echo "\n\033[01;32m              Lacak-ip updated !!!\033[01;37m\n";
   sleep(1);
