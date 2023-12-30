@@ -65,12 +65,7 @@ class set {
     echo <<<EOL
 \033[01;33m
 
-
-\033[01;31m      _\033[01;33m ____    _
-     \033[01;31m(_)\033[01;33m  _ \  | |_ _ __ __ _  ___ ___ _ __
-     | | |_) | | __| '__/ _` |/ __/ _ \ '__|
-     | |  __/  | |_| | | (_| | (_|  __/ |
-     |_|_|      \__|_|  \__,_|\___\___|_|
+www.wapbaru.com
 
 
     \033[01;37m}\033[01;31m--------------------------------------\033[01;37m{
@@ -81,7 +76,7 @@ class set {
 EOL;
 
     if (file_exists("/usr/bin/ip-tracer") || file_exists("/data/data/com.termux/files/usr/bin/ip-tracer")) {
-      echo "\033[01;32m      IP-Tracer installed Successfully !!!\033[00m\n";
+      echo "\033[01;32m      Lacak-ip installed Successfully !!!\033[00m\n";
       echo <<<EOL
 
 \033[01;37m ----------------------------------------------
