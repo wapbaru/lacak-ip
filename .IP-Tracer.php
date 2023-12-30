@@ -9,11 +9,7 @@ function logo() {
 \033[01;33m
 
 
-\033[01;31m      _\033[01;33m ____    _
-     \033[01;31m(_)\033[01;33m  _ \  | |_ _ __ __ _  ___ ___ _ __
-     | | |_) | | __| '__/ _` |/ __/ _ \ '__|
-     | |  __/  | |_| | | (_| | (_|  __/ |
-     |_|_|      \__|_|  \__,_|\___\___|_|
+
 
 
    \033[01;37m}\033[01;31m----------------------------------------\033[01;37m{
@@ -28,11 +24,11 @@ function About() {
   logo();
   echo <<<EOL
 
-         \033[01;33mTool Name \033[01;37m:- \033[01;36mIP-Tracer
-         \033[01;33mAuthor \033[01;37m:- \033[01;36mRajkumar Dusad
-         \033[01;33mPowered By \033[01;37m:- \033[01;36mAex Software's
+         \033[01;33mTool Name \033[01;37m:- \033[01;36mLacak-ip
+         \033[01;33mAuthor \033[01;37m:- \033[01;36mWapbaru.com
+         
 
- \033[01;33mIP-Tracer\033[01;32m is use \033[01;36mip-api \033[01;32mto retrive any ip address information. Our system will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
+ \033[01;33mLacak-ip\033[01;32m is use \033[01;36mip-api \033[01;32mto retrive any ip address information. Our system will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
 
 
 EOL;
@@ -48,7 +44,7 @@ function upd() {
   system("cd ~/ && sudo git clone https://github.com/rajkumardusad/IP-Tracer.git");
   system("cd ~/IP-Tracer && sh install");
   logo();
-  echo "\n\033[01;32m              IP-Tracer updated !!!\033[01;37m\n";
+  echo "\n\033[01;32m              Lacak-ip updated !!!\033[01;37m\n";
   sleep(1);
   menu();
 }
