@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Tool Name :- IP-Tracer
-# Author :- Rajkumar Dusad
-# Date :- 10/10/2018
+# Tool Name :- Lacak-ip
+# Author :- Wapbaru.com
+
 
 case "$1" in
   -m)
